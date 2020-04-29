@@ -1,0 +1,226 @@
+<!-- DEVELOPER: Samantha Tolentino, IS117-004, Spring 2020 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eats & Treats | Welcome</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 768px) and (max-width: 1500px)">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">Eats & Treats</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=
+            "#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                        data-target="dropdown_target">Food Diary</a>
+                        <span class="caret"></span>
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                            <a href="eatinaday.html" class="dropdown-item">What I Eat In A Day</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="recipes.html" class="dropdown-item">My Favorite Recipes</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                        data-target="dropdown_target2">Food Reviews</a>
+                        <span class="caret"></span>
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target2">
+                            <a href="reviews.html" class="dropdown-item">My Favorite Restaurants</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Header -->
+
+    <section id="blog-info">
+            <div class="blog-img"></div>
+            <div class="blog-content">
+                <h2>Welcome To My Food Blog!</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic esse eius veritatis,
+                sed tempora beatae magnam quam eum, debitis libero quisquam possimus reiciendis amet
+                vitae iusto maiores soluta impedit ad.</p>
+                <a href="about.html" class="btn-success">About This Blog</a>
+                <img src="img/Me.JPG" alt="Me">
+            </div>
+    </section>
+
+    <!-- Cards -->
+
+    <section id="cards">
+        <div class="container my-3 py-5 text-center">
+            <div class="row mb-5">
+                <div class="col">
+                    <h1>Check Out My Favorite Recipes!</h1>
+                    <p class="mt-3">New recipes included every week:</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/FrenchToast.jpg" alt="French Toast" class="img-fluid
+                            rounded-circle w-50 mb-3">
+                            <h3>Classic French Toast</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi placeat cum
+                            inventore optio sint.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-1">
+                                    <a href="recipes.html">Try It Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="col-lg-3 col-md-6">
+                   <div class="card">
+                       <div class="card-body">
+                           <img src="img/Cookie.jpg" alt="Cookie" class="img-fluid rounded-circle
+                           w-50 mb-3">
+                           <h3>Chewy C.C. Cookies</h3>
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi placeat cum
+                            inventore optio sint.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-1">
+                                    <a href="recipes.html">Try It Now!</a>
+                                </div>
+                            </div>
+                       </div>
+                   </div>
+               </div> 
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/Ramen.jpg" alt="Ramen" class="img-fluid rounded-circle
+                            w-50 mb-3">
+                            <h3>Savory Seafood Ramen</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi placeat cum
+                            inventore optio sint. Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-1">
+                                    <a href="recipes.html">Try It Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/Lumpia.jpg" alt="Lumpia" class="img-fluid rounded-circle
+                            w-50 mb-3">
+                            <h3>Crispy Filipino Lumpia</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi placeat cum
+                            inventore optio sint. Lorem ipsum dolor sit amet consectetur.
+                            Lorem ipsum dolor sit amet.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-1">
+                                    <a href="recipes.html">Try It Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/Matcha.jpg" alt="Matcha" class="img-fluid rounded-circle
+                            w-50 mb-3">
+                            <h3>Creamy Matcha Latte</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi placeat cum inventore.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-1">
+                                    <a href="recipes.html">Try It Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/Icecream.jpg" alt="Icecream" class="img-fluid rounded-circle
+                            w-50 mb-3">
+                            <h3>Fruity Mango Icecream</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi placeat cum inventore.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-1">
+                                    <a href="recipes.html">Try It Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/Cupcake.jpg" alt="Cupcake" class="img-fluid rounded-circle
+                            w-50 mb-3">
+                            <h3>Tangy Lemon Cupcakes</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi placeat cum
+                            inventore optio sint. Lorem ipsum dolor si amet.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-1">
+                                    <a href="recipes.html">Try It Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/Katsu.jpg" alt="Katsu" class="img-fluid rounded-circle
+                            w-50 mb-3">
+                            <h3>Tender Chicken Katsu</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi placeat cum inventore optio sint.
+                            Lorem ipsum dolor.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p-1">
+                                    <a href="recipes.html">Try It Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="sticky-footer" class="py-4 bg-dark">
+        <div class="container text-center">
+          <small>Copyright &copy; Eats & Treats, 2020 | Samantha Tolentino</small>
+        </div>
+    </footer>
+</body>
+</html>

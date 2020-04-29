@@ -1,0 +1,131 @@
+/* DEVELOPER: Samantha Tolentino, IS117-004, Spring 2020 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7em;
+    background: #d6cfc9;
+}
+
+/* HOME PAGE */
+
+/* Header */
+
+#blog-info {
+    height: 600px;
+}
+
+#blog-info .blog-img {
+    float: left;
+    width: 50%;
+    background: url('../img/Desserts.JPG') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#blog-info .blog-content {
+    float:right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 20px 30px;
+    overflow: hidden;
+    background: #303038;
+    color: #fff;
+}
+
+#blog-info .blog-content h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#blog-info .blog-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#blog-info .blog-content .btn-success {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 0px;
+    text-decoration: none;
+}
+
+.header .btn-basic:hover {
+    color: #fff;
+    background: #29612b;
+}
+
+#blog-info .blog-content img {
+    display: block;
+    margin: auto;
+    border-radius: 70px;
+    padding-top: 30px;
+}
+
+/* Cards */
+
+#cards .card {
+    border-radius: 0;
+    box-shadow: 5px 5px 10px #333;
+}
+
+#cards .card:hover {
+    background: #f0cfc3;
+}
+
+/* Footer */
+
+footer {
+    color: #fff;
+}
+
+/* ABOUT PAGE */
+
+/* Header */
+
+.breadcrumb {
+    background-color: #d6cfc9;
+}
+
+.col-md-3 img {
+    border-radius: 100%;
+    padding-bottom: 20px;
+    padding: 10px;
+}
+
+/* CONTACT PAGE */
+
+hr {
+    background: #fff;
+}
+
+.contact-form {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+
+/* WHAT I EAT IN A DAY PAGE */
+
+.food-diary img {
+    border-radius: 20px;
+}
+
+/* MY FAVORITE RESTAURANTS PAGE  */
+
+.rev-section img {
+    border-radius: 20px;
+}

@@ -1,0 +1,21 @@
+/* DEVELOPER: Samantha Tolentino, IS117-004, Spring 2020 */
+
+/* Header */
+
+#blog-info {
+    height: 600px;
+}
+
+#blog-info .blog-img {
+    display: none;
+}
+
+#blog-info .blog-content {
+    float: none;
+    width: 100%;
+    padding-top: 90px;
+}
+
+#blog-info .blog-content img {
+    display: none;
+}
